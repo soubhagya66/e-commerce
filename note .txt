@@ -1,0 +1,66 @@
+step 1:virtualenv venv          //to create virtual environ ment(venv is name of virtual environo)
+step 2:venv\Scripts\activate   //to activate virtual environment
+step 3: pip install django      // install django to that virtual environment
+stem 4:django-admin startproject core.   //. to create core folder insite e commerce
+step 5:python manage.py startapp store   //to create a app store with help of manage.py
+step 6: create models in models .py    //mainly createing tables
+step 7: pip install pillow   //pillow pakage help to manage image field in project
+step 8:python manage.py makemigrations
+step 9: python manage.py migrate
+step 10: creating a media folder to store images
+step 11:MEDIA_URL = '/media/'     MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')  //write this in setting file
+step 12:setting core url folder
+      if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+   
+step 13:resister my models in admin.py    //from .models import Category, Product
+step 14:create admin class to modify how we want to show our dataabase in admin area
+step 15:manage.py createsuperuser //to create a accunt to use admin area
+step 16:path('', include('store.urls', namespace='store')),//add path to redirect urls to my store url
+step 17: creating a url file in store ,linl a url to view
+step 18: setting view
+step 19: creating atempalte folder ,ad setting to know django wher template are 
+step 20:insite setting template there is DIRS  just provide path to it
+step 21:learning django templates
+step 22:python manage.py shell   //to acess database in terminal
+step 23:SETTING FOR SESSIONS
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+
